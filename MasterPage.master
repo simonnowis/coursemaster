@@ -79,6 +79,7 @@
             <li><a href="buy.aspx">Buy</a></li>
             <li><a href="promotion.aspx">Promotion</a></li>
             <li><a href="contact.aspx">Contact</a></li> 
+            <li><a href="login.aspx" id="HPLogin">Log in</a></li> 
         </ul>
      </div>
 	
@@ -100,6 +101,8 @@
     </asp:ContentPlaceHolder>
   <!-- Contents ends here -->
 
+
+    <div class="clear"></div> 
 </div><!-- End of center_container-->
 
 </div>
