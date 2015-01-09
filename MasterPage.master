@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="FamousThemes" />
+<meta name="description" content="Get in the spotlight" />
+<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
+<title>选课神器官网</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<link rel="stylesheet" href="prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css' />
+<!-- jQuery -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!-- Twitter Feed -->
+<script type="text/javascript" src="js/jquery.tweet.js" charset="utf-8"></script>
+<!-- FlexSlider -->
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<!-- PrettyPhoto -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/custom.quicksand.js"></script>
+<!-- DropDownMenu -->
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function () {
+        $('.flexslider').flexslider({
+            animation: "fade"
+        });
+
+        $(function () {
+            $('.show_menu').click(function () {
+                $('.menu').fadeIn();
+                $('.show_menu').fadeOut();
+                $('.hide_menu').fadeIn();
+            });
+            $('.hide_menu').click(function () {
+                $('.menu').fadeOut();
+                $('.show_menu').fadeIn();
+                $('.hide_menu').fadeOut();
+            });
+        });
+
+
+    });
+
+    jQuery(function ($) {
+        $(".tweet").tweet({
+            join_text: "auto",
+            username: "famousthemes",
+            count: 1,
+            auto_join_text_default: "we said,",
+            auto_join_text_ed: "we",
+            auto_join_text_ing: "we were",
+            auto_join_text_reply: "we replied",
+            auto_join_text_url: "we were checking out",
+            loading_text: "loading tweets..."
+        });
+    });
+</script>
+</head>
+<body>
+    <div id="shadow_bg">
+<div id="main_container">
+
+	<a class="show_menu" href="#">menu</a>
+    <a class="hide_menu" href="#">close menu</a>
+	
+    <div class="menu">                                                                   
+        <ul id="main_menu">
+        	<li><a href="index.aspx">Home</a></li>
+            <li><a href="introduction.aspx">Introduction</a></li>
+            <li><a href="howtouse.aspx">How to use</a></li>
+            <li><a href="faq.aspx">FAQ</a></li>
+            <li><a href="buy.aspx">Buy</a></li>
+            <li><a href="promotion.aspx">Promotion</a></li>
+            <li><a href="contact.aspx">Contact</a></li> 
+        </ul>
+     </div>
+	
+
+<div id="center_container">
+
+  <div id="header">
+     
+     <div class="title"><a href="index.aspx">Course Master</a></div>
+     <div class="description"><span class="swirl_left"><span class="swirl_right">Best Course Scheduling Tool Ever</span></span></div>
+     
+  </div><!-- End of Header-->
+
+  <!-- Contents starts here -->
+    <asp:ContentPlaceHolder ID="CenterContentPlaceHolder" runat="server">
+
+
+
+    </asp:ContentPlaceHolder>
+  <!-- Contents ends here -->
+
+</div><!-- End of center_container-->
+
+</div>
+</div>
+
+   
+   <div class="footer">
+       <div class="footer_content">
+       <div class="footer_text">
+       &copy; Copyright &copy; 2015.神器工作组 All rights reserved.
+       </div>
+       <div class="footer_menu">
+           <ul>
+            <li><a href="index.aspx">Home</a></li>
+            <li><a href="introduction.aspx">Introduction</a></li>
+            <li><a href="howtouse.aspx">How to use</a></li>
+            <li><a href="faq.aspx">FAQ</a></li>
+            <li><a href="buy.aspx">Buy</a></li>
+            <li><a href="promotion.aspx">Promotion</a></li>
+            <li><a href="contact.aspx">Contact</a></li> 
+           <li><a onclick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" class="gotop" title="Go on top">TOP</a> </li>
+           </ul>
+       </div>
+       <div class="clear"></div>
+       </div>
+       
+   </div>
+
+<script type="text/javascript">
+    var main_menu = new main_menu.dd("main_menu");
+    main_menu.init("main_menu", "menuhover");
+</script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+
