@@ -102,7 +102,7 @@
         </div>
         
                 
-       <div class="name_divider">MS</div>         
+              
                 
 
         

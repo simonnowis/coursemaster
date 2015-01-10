@@ -64,6 +64,7 @@
 </script>
 </head>
 <body>
+    <form id="form1" runat="server">
     <div id="shadow_bg">
 <div id="main_container">
 
@@ -72,14 +73,21 @@
 	
     <div class="menu">                                                                   
         <ul id="main_menu">
-        	<li><a href="index.aspx">Home</a></li>
-            <li><a href="introduction.aspx">Introduction</a></li>
-            <li><a href="howtouse.aspx">How to use</a></li>
-            <li><a href="faq.aspx">FAQ</a></li>
-            <li><a href="buy.aspx">Buy</a></li>
-            <li><a href="promotion.aspx">Promotion</a></li>
-            <li><a href="contact.aspx">Contact</a></li> 
-            <li><a href="login.aspx" id="HPLogin">Log in</a></li> 
+        	<li><a href="/index.aspx">Home</a></li>
+            <li><a href="/introduction.aspx">Introduction</a></li>
+            <li><a href="/howtouse.aspx">How to use</a></li>
+            <li><a href="/faq.aspx">FAQ</a></li>
+            <li><a href="/buy.aspx">Buy</a></li>
+            <li><a href="/promotion.aspx">Promotion</a></li>
+            <li><a href="/contact.aspx">Contact</a></li> 
+            <li>
+                <asp:Label ID="LabelUserName" runat="server" Text="" Font-Size="Medium" ForeColor ="White"></asp:Label>
+            </li>
+            <li>
+                <asp:Button ID="ButtonLog" runat="server" Text="Log" OnClick="ButtonLog_Click" />
+            </li>
+
+            
         </ul>
      </div>
 	
@@ -101,7 +109,8 @@
     </asp:ContentPlaceHolder>
   <!-- Contents ends here -->
 
-
+    
+    <div class="name_divider">CM</div>  
     <div class="clear"></div> 
 </div><!-- End of center_container-->
 
@@ -116,13 +125,13 @@
        </div>
        <div class="footer_menu">
            <ul>
-            <li><a href="index.aspx">Home</a></li>
-            <li><a href="introduction.aspx">Introduction</a></li>
-            <li><a href="howtouse.aspx">How to use</a></li>
-            <li><a href="faq.aspx">FAQ</a></li>
-            <li><a href="buy.aspx">Buy</a></li>
-            <li><a href="promotion.aspx">Promotion</a></li>
-            <li><a href="contact.aspx">Contact</a></li> 
+            <li><a href="/index.aspx">Home</a></li>
+            <li><a href="/introduction.aspx">Introduction</a></li>
+            <li><a href="/howtouse.aspx">How to use</a></li>
+            <li><a href="/faq.aspx">FAQ</a></li>
+            <li><a href="/buy.aspx">Buy</a></li>
+            <li><a href="/promotion.aspx">Promotion</a></li>
+            <li><a href="/contact.aspx">Contact</a></li> 
            <li><a onclick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" class="gotop" title="Go on top">TOP</a> </li>
            </ul>
        </div>
@@ -136,6 +145,7 @@
     main_menu.init("main_menu", "menuhover");
 </script>
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+    </form>
 </body>
 </html>
 
