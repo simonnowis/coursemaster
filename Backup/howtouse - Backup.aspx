@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="promotion.aspx.cs" Inherits="howtouse" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="howtouse - Backup.aspx.cs" Inherits="howtouse" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CenterContentPlaceHolder" Runat="Server">
 
     
   <div class="pages_title">
-  <h2>推广促销 <span>Promotion</span></h2>
+  <h2>如何使用 第五代 <span>选课神器</span></h2>
   </div> 
    
    <div class="content">

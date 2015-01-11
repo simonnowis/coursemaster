@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="promotion.aspx.cs" Inherits="howtouse" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="faq - Backup.aspx.cs" Inherits="howtouse" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CenterContentPlaceHolder" Runat="Server">
 
     
   <div class="pages_title">
-  <h2>推广促销 <span>Promotion</span></h2>
+  <h2>常见问题 <span>FAQ</span></h2>
   </div> 
    
    <div class="content">

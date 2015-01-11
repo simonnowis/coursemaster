@@ -56,24 +56,24 @@
 
    		<div class="left12 about">
             <div class="about_pic">
-             <img src="images/about_f.jpg" alt="" title="" />
+             <img src="images/coursemaster/200832135151357_2.jpg" alt="" title="" dir="auto" />
             </div>
             <div class="about_right">
             <h2>Introduction</h2>
             <p>新版选课神器已经被制作成了 <strong>网页版</strong>。不再需要下载任何软件，不再需要安装任何运行环境，直接在网页上面提交相关信息即可。
             </p>
-            <a href="#" class="more_about">read more</a>
+            <a href="introduction.aspx" class="more_about">read more</a>
             </div>
         </div>
    		<div class="left12 about">
             <div class="about_pic">
-             <img src="images/about_m.jpg" alt="" title="" />
+             <img src="images/coursemaster/84820957.jpg" alt="" title="" />
             </div>
             <div class="about_right">
             <h2>How to use</h2>
             <p>简单的几步就可以使用新版选课神器了。注册并登陆之后，会来到个人课程管理页面，在管理页面提交相关的课程信息，神器就会自动帮你去监视这门课，有空位的时候就会在第一时间登陆elion去加课。
             </p>
-            <a href="#" class="more_about">read more</a>
+            <a href="howtouse.aspx" class="more_about">read more</a>
             </div>
         </div>
          
@@ -82,7 +82,7 @@
         <a href="#"><img src="images/image_13.jpg" alt="" title="" /></a>
         <p>这里会为大家解答一些同学比较 <strong>常见的问题</strong>
         </p>
-        <a href="#" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
+        <a href="/faq.aspx" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
         </div>
         
    		<div class="left13 section_home">
@@ -90,15 +90,15 @@
         <a href="#"><img src="images/image_13_2.jpg" alt="" title="" /></a>
         <p>简单在线支付，支持信用卡，借记卡和Paypal
         </p>
-        <a href="#" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
+        <a href="/buy.aspx" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
         </div>
         
    		<div class="left13 section_home">
         <h2>推广 <span>Promotion</span></h2>
         <a href="#"><img src="images/image_13_3.jpg" alt="" title="" /></a>
-        <p>关注选课神器的促销活动，参与神器推广，获取折扣
+        <p>关注促销活动，参与神器推广，获取折扣
         </p>
-        <a href="#" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
+        <a href="/promotion.aspx" class="section_more"><span class="swirl_left"><span class="swirl_right">read more</span></span></a>
         </div>
         
                 
@@ -107,5 +107,6 @@
 
         
        
+    </div>
 </asp:Content>
 
