@@ -11,6 +11,7 @@ public partial class Account_register : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        /*
         if (IsPostBack)
         {       //Data Source=coursemaster.xicp.net;Initial Catalog=elion;Persist Security Info=True;User ID=sa;Password=***********
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["UserDataConnectionString"].ConnectionString);
@@ -24,6 +25,7 @@ public partial class Account_register : System.Web.UI.Page
             }
             conn.Close();
         }
+         */
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
