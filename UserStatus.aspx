@@ -5,6 +5,8 @@
     <h2 style="text-align: left">User <span>Status
         </span></h2>
     </div>
+
+    <div class ="slider_container">
     <div>
 
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CourseMasterDBConnectionString %>" 
@@ -45,11 +47,11 @@
             <AlternatingRowStyle BackColor="PaleGoldenrod" />
             <Columns>
                 
-                <asp:BoundField DataField="CourseName" HeaderText="CourseName" SortExpression="CourseName" />
-                <asp:BoundField DataField="ScheduleNumber" HeaderText="ScheduleNumber" SortExpression="ScheduleNumber" />
-                <asp:BoundField DataField="AddedTime" HeaderText="AddedTime" SortExpression="AddedTime" />
-                <asp:BoundField DataField="LastActionTime" HeaderText="LastActionTime" SortExpression="LastActionTime" />
-                <asp:BoundField DataField="LastActionMessage" HeaderText="LastActionMessage" SortExpression="LastActionMessage" />
+                <asp:BoundField DataField="CourseName" HeaderText="Course" SortExpression="CourseName" />
+                <asp:BoundField DataField="ScheduleNumber" HeaderText="Number" SortExpression="ScheduleNumber" />
+                <asp:BoundField DataField="AddedTime" HeaderText="Added" SortExpression="AddedTime" />
+                <asp:BoundField DataField="LastActionTime" HeaderText="LastAction" SortExpression="LastActionTime" />
+                <asp:BoundField DataField="LastActionMessage" HeaderText="Message" SortExpression="LastActionMessage" />
                 <asp:CommandField ShowDeleteButton="True" HeaderText="Operation"/>
             </Columns>
             <FooterStyle BackColor="Tan" />
@@ -64,14 +66,14 @@
 
         </div>
      </div>
-
+        </div>
         <div class="pages_title">  
     <h2 style="text-align: left">Manage <span>Course
         </span></h2>
     </div>
 
  
-
+    <div class="slider_container">
     <table class="videocontainer">
         <tr>
             <td style="text-align: center; height: 12px; width: 150px"></td>
@@ -108,30 +110,32 @@
             <td style="text-align: center">&nbsp;</td>
         </tr>
     </table>
-
+        </div>
     <div class="pages_title">  
     <h2 style="text-align: left">Manage <span>User Account
         </span></h2>
     </div>
     <br/>
+   <div class="slider_container">
+     <br/>
     <br/>
-    <br/>
+
     <table style="width: 70%; align-content:center">
         <tr>
-            <td>&nbsp;</td>
-            <td><a href="/Account/password_change.aspx">修改选课神器网登陆密码</a></td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td><a href="/Account/password_change_psu.aspx">修改记录的PSU密码</a></td>
+            <td style="width: 20%">&nbsp;</td>
+            <td><a href="/Account/password_change.aspx" style="font-size:x-large">修改选课神器网登陆密码</a></td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><a href="/Account/password_change_psu.aspx" style="font-size:x-large">修改记录的PSU密码</a></td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -142,6 +146,6 @@
             <td>&nbsp;</td>
         </tr>
     </table>
-
+       </div>
 </asp:Content>
 

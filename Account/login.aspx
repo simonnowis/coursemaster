@@ -4,9 +4,10 @@
     <div class="pages_title">  
     <h2>Log in <span>Page</span></h2>
     </div>
+    <div class="slider_container">
     <asp:Label ID="ErrorMSG" runat="server" Text="" ForeColor="Red" align="center"></asp:Label>
     <div>
-        <table class="videocontainer">
+        <table class="content"align="center">
             <tr>
                 <td style="text-align: right">User Name:</td>
                 <td style="width: 190px">
@@ -45,5 +46,6 @@
     <div>
         <h2 align="center"> Haven't got an account yet? <a href="register.aspx"> Register</a> </h2>
     </div>
+        </div>
 </asp:Content>
 

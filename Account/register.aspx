@@ -4,8 +4,8 @@
       <div class="pages_title">
   <h2>Register <span>Page</span></h2>
   </div> 
-
-        <table class="videocontainer">
+    <div class="slider_container">
+        <table class="slide" align="center">
         <tr>
             <td style="width: 178px; text-align: right">&nbsp;</td>
             <td>
@@ -80,7 +80,7 @@
     <div>
         <h3 align="center"> Already got an account? <a href="login.aspx">Log in</a> </h3>
     </div>
-    
+    </div>
     
 </asp:Content>
 
