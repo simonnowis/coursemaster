@@ -10,7 +10,7 @@
    <div class="content">
    
          <div class="left_full">
-        <h1>本学期免费</h1>
+        <h1>免费公测中……</h1>
         </div>
                 
    </div>

@@ -15,7 +15,8 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
         if (Session["New"] != null)
         {
-            LabelUserName.Text = "Welcome, " + Session["New"].ToString();
+            LabelUserName.Text = "Welcome, ";
+            HyperLinkUserName.Text = Session["New"].ToString();
             ButtonLog.Text = "Log out";
         }
         else

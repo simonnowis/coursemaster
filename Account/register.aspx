@@ -49,7 +49,7 @@
             <td style="height: 12px"></td>
         </tr>
         <tr>
-            <td style="width: 168px; text-align: right; height: 12px;">PSU ID(xyz1234):</td>
+            <td style="width: 168px; text-align: right; height: 12px;">PSU ID(xyz1234)(不可更改):</td>
             <td style="height: 12px">
                 <asp:TextBox ID="TextBoxPSUID" runat="server" Width="180px"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBoxPSUID" ErrorMessage="PSUID is required" ForeColor="Red"></asp:RequiredFieldValidator>

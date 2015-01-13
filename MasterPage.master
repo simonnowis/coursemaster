@@ -82,6 +82,7 @@
             <li><a href="/contact.aspx">Contact</a></li> 
             <li>
                 <asp:Label ID="LabelUserName" runat="server" Text="" Font-Size="Medium" ForeColor ="White"></asp:Label>
+                <asp:HyperLink ID="HyperLinkUserName" runat="server" NavigateUrl="/UserStatus.aspx">Manage</asp:HyperLink>
             </li>
             <li>
                 <asp:Button ID="ButtonLog" runat="server" Text="Log" OnClick="ButtonLog_Click" />

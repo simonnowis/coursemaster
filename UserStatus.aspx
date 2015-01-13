@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="CenterContentPlaceHolder" Runat="Server">
     <div class="pages_title">  
-    <h2>User <span>Status
+    <h2 style="text-align: left">User <span>Status
         </span></h2>
     </div>
     <div>
@@ -35,11 +35,13 @@
                 <asp:Parameter Name="ID" Type="Int32" />
             </UpdateParameters>
         </asp:SqlDataSource>
-        <div align="center">
+        <div>
 
         <asp:GridView ID="GridView" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="LightGoldenrodYellow" BorderColor="Tan" BorderWidth="1px" CellPadding="2" DataSourceID="SqlDataSource1" 
             BorderStyle="None"   PageSize="4" align="center"
-            ForeColor="Black" GridLines="None" Height="156px" Width="892px" DataKeyNames="ID" >
+            ForeColor="Black" GridLines="None" Height="156px" Width="95%" DataKeyNames="ID" 
+            style="width:100%"
+            >
             <AlternatingRowStyle BackColor="PaleGoldenrod" />
             <Columns>
                 
@@ -72,7 +74,7 @@
 
     <table class="videocontainer">
         <tr>
-            <td style="text-align: center; height: 12px"></td>
+            <td style="text-align: center; height: 12px; width: 150px"></td>
             <td style="text-align: right; height: 12px">Course Name:</td>
             <td style="text-align: left; height: 12px">
                 <asp:TextBox ID="TextBoxCourseName" runat="server"></asp:TextBox>
@@ -107,7 +109,39 @@
         </tr>
     </table>
 
- 
+    <div class="pages_title">  
+    <h2 style="text-align: left">Manage <span>User Account
+        </span></h2>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <table style="width: 70%; align-content:center">
+        <tr>
+            <td>&nbsp;</td>
+            <td><a href="/Account/password_change.aspx">修改选课神器网登陆密码</a></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><a href="/Account/password_change_psu.aspx">修改记录的PSU密码</a></td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
 
 </asp:Content>
 

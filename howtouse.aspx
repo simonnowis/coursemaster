@@ -9,90 +9,36 @@
    
    <div class="content">
    
-         <div class="left_full">
-        <h1>建设中……（请无视占空内容……）</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dol ore magna aliqua.Sed do eiusmod <strong>tempor incididunt</strong> ut labore et do lore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris <a href="#">nisi ut</a> aliquip ex ea commodo consequat. 
-        </p>
+         <div class="slider_container">
+        <h1>欢迎来到选课神器官网，第一步请注册或登陆。</h1>
+        <div >
+            <img alt="" src="images/how_to_use/1.jpg" style="width: 70%; height: 70%" /></div>
         </div>
-                
-        <div class="left12">
-        <h2>Heading two - Half Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
+            <div class="slider_container">
+        <h1>如果已有账号，直接登陆，注册新账号点Register</h1>
+        <div >
+            <img alt="" src="images/how_to_use/2.jpg" style="width: 70%; height: 70%" /></div>
+        </div>    
+        <div class="slider_container">
+        <h1>注册页面填入相关的注册信息</h1>
+        <div >
+            <img alt="" src="images/how_to_use/3.jpg" style="width: 70%; height: 70%" /></div>
+        </div> 
+        <div class="slider_container">
+        <h1>在管理页面可以看到自己正在抓捕的课程信息，添加抓捕课程的时候一定要确保信息的正确性</h1>
+        <div >
+            <img alt="" src="images/how_to_use/4.jpg" style="width: 70%; height: 70%" /></div>
         </div>
-        <div class="left12">
-        <h2>Heading two - Half Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        <div class="left23">
-        <h2>Heading three - 2 Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
+        <div class="slider_container">
+        <h1>修改密码点这里，PSU ID注册即绑定，不可更改</h1>
+        <div >
+            <img alt="" src="images/how_to_use/5.jpg" style="width: 70%; height: 70%" /></div>
         </div>
         
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        <div class="divider"></div>
-            
-   </div>
    
    <div class="clear"></div> 
 
 
+    </div>
 </asp:Content>
 
