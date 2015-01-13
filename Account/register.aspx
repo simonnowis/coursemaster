@@ -40,13 +40,13 @@
             <td style="height: 12px"></td>
         </tr>
         <tr>
-            <td style="width: 168px; text-align: right; height: 25px;">Confirm Password:</td>
+            <td style="width: 168px; text-align: right; height: 12px;">Confirm Password:</td>
             <td style="height: 25px">
                 <asp:TextBox ID="TextBoxConfirmPW" runat="server" Width="180px" TextMode="Password"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBoxConfirmPW" ErrorMessage="Please re-enter password." ForeColor="Red"></asp:RequiredFieldValidator>
                 <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBoxPW" ControlToValidate="TextBoxConfirmPW" ErrorMessage="Password does not match." ForeColor="Red"></asp:CompareValidator>
             </td>
-            <td style="height: 25px"></td>
+            <td style="height: 12px"></td>
         </tr>
         <tr>
             <td style="width: 168px; text-align: right; height: 12px;">PSU ID(xyz1234):</td>
