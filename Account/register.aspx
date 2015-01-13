@@ -67,12 +67,6 @@
             <td style="height: 12px"></td>
         </tr>
         <tr>
-            <td style="width: 168px; text-align: right; height: 12px;">&nbsp;</td>
-            <td style="height: 12px">
-                &nbsp;</td>
-            <td style="height: 12px">&nbsp;</td>
-        </tr>
-        <tr>
             <td style="width: 138px; text-align: right">&nbsp;</td>
             <td>
                 <asp:Button ID="Button1" runat="server" Text="Submit" Width="100px" OnClick="Button1_Click" />
