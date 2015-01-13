@@ -17,6 +17,7 @@
             <td>
                 <asp:TextBox ID="TextBoxUserName" runat="server" Width="180px"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBoxUserName" ErrorMessage="User name is required." ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBoxUserName" ErrorMessage="Please input valid user name." ForeColor="Red" ValidationExpression="^[\w]{1,20}$"></asp:RegularExpressionValidator>
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -32,15 +33,16 @@
         <tr>
             <td style="width: 168px; text-align: right; height: 12px">Password:</td>
             <td style="height: 12px">
-                <asp:TextBox ID="TextBoxPW" runat="server" Width="180px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxPW" runat="server" Width="180px" TextMode="Password"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBoxPW" ErrorMessage="Password is required." ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="TextBoxPW" ErrorMessage="Please input valid password. only charecters and numbers allowed." ForeColor="Red" ValidationExpression="^[\w]{1,20}$"></asp:RegularExpressionValidator>
             </td>
             <td style="height: 12px"></td>
         </tr>
         <tr>
             <td style="width: 168px; text-align: right; height: 25px;">Confirm Password:</td>
             <td style="height: 25px">
-                <asp:TextBox ID="TextBoxConfirmPW" runat="server" Width="180px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxConfirmPW" runat="server" Width="180px" TextMode="Password"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TextBoxConfirmPW" ErrorMessage="Please re-enter password." ForeColor="Red"></asp:RequiredFieldValidator>
                 <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBoxPW" ControlToValidate="TextBoxConfirmPW" ErrorMessage="Password does not match." ForeColor="Red"></asp:CompareValidator>
             </td>
@@ -51,8 +53,24 @@
             <td style="height: 12px">
                 <asp:TextBox ID="TextBoxPSUID" runat="server" Width="180px"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBoxPSUID" ErrorMessage="PSUID is required" ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TextBoxPSUID" ErrorMessage="Please input valid PSU ID." ForeColor="Red" ValidationExpression="^[\w]{1,10}$"></asp:RegularExpressionValidator>
             </td>
             <td style="height: 12px"></td>
+        </tr>
+        <tr>
+            <td style="width: 168px; text-align: right; height: 12px;">PSU Password:</td>
+            <td style="height: 12px">
+                <asp:TextBox ID="TextBoxPSUPW" runat="server" Width="180px" TextMode="Password"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TextBoxPSUPW" ErrorMessage="PSU Password is required." ForeColor="Red"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="TextBoxPSUPW" ErrorMessage="Please input valid password." ForeColor="Red" ValidationExpression="^[\S]{1,20}$"></asp:RegularExpressionValidator>
+            </td>
+            <td style="height: 12px"></td>
+        </tr>
+        <tr>
+            <td style="width: 168px; text-align: right; height: 12px;">&nbsp;</td>
+            <td style="height: 12px">
+                &nbsp;</td>
+            <td style="height: 12px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 138px; text-align: right">&nbsp;</td>
@@ -66,7 +84,7 @@
     <br />
     <br />
     <div>
-        <h3> Already got an account? <a href="login.aspx">Log in</a> </h3>
+        <h3 align="center"> Already got an account? <a href="login.aspx">Log in</a> </h3>
     </div>
     
     

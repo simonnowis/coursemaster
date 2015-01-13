@@ -15,39 +15,47 @@ public partial class Account_register : System.Web.UI.Page
     }
     protected void Button2_Click(object sender, EventArgs e)
     {
-        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["UserDataConnectionString"].ConnectionString);
-        conn.Open();
-
-        string checkuser = "select count(*) from UserData where UserName='" + TextBoxLoginUserName.Text + "'";
-        SqlCommand com = new SqlCommand(checkuser, conn);
-        
-        int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
-        conn.Close();
-        if (temp == 1)
+        try
         {
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseMasterDBConnectionString"].ConnectionString);
             conn.Open();
-            string checkPasswordQuery = "select password from UserData where UserName='" + TextBoxLoginUserName.Text + "'";
-            SqlCommand passComm = new SqlCommand(checkPasswordQuery, conn);
-            string password = passComm.ExecuteScalar().ToString().Replace(" ","");
-            if (password == TextBoxLoginPW.Text)
+
+            string checkuser = "select count(*) from UserData where UserName='" + TextBoxLoginUserName.Text + "'";
+            SqlCommand com = new SqlCommand(checkuser, conn);
+
+            int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
+            conn.Close();
+            if (temp == 1)
             {
-                Session["New"] = TextBoxLoginUserName.Text;
-                Response.Write("Password is correct");
-                ErrorMSG.Text = "Password is correct";
-                Response.Redirect("/manage.aspx");
+                conn.Open();
+                string checkPasswordQuery = "select password from UserData where UserName='" + TextBoxLoginUserName.Text + "'";
+                SqlCommand passComm = new SqlCommand(checkPasswordQuery, conn);
+                string password = passComm.ExecuteScalar().ToString().Replace(" ", "");
+                if (password == TextBoxLoginPW.Text)
+                {
+                    Session["New"] = TextBoxLoginUserName.Text;
+                    Response.Write("Password is correct");
+                    ErrorMSG.Text = "Password is correct";
+                    Response.Redirect("/UserStatus.aspx");
+                }
+                else
+                {
+                    Response.Write("Password is not correct");
+                    ErrorMSG.Text = "Password is not correct";
+                }
             }
             else
             {
-                Response.Write("Password is not correct");
-                ErrorMSG.Text = "Password is not correct";
-            }
-        }
-        else
-        {
 
-            Response.Write("Username does not exist");
-            ErrorMSG.Text = "Username does not exist";
+                Response.Write("Username does not exist");
+                ErrorMSG.Text = "Username does not exist";
+            }
+            conn.Close();
         }
-        conn.Close();
+        catch (Exception ex)
+        {
+            Response.Write("Error:" + ex.ToString());
+        }
     }
 }
+
