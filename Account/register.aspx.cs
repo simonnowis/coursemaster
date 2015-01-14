@@ -57,7 +57,7 @@ public partial class Account_register : System.Web.UI.Page
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseMasterDBConnectionString"].ConnectionString);
             conn.Open();
 
-            string insertQuery = "insert into UserData (Id, UserName,Email,Password,PSUID,PSUPassword) values (@ID ,@Uname ,@email ,@password ,@psuid ,@psupw)";
+            string insertQuery = "insert into UserData (Id, UserName,Email,Password,PSUID,PSUPassword,IsValidUser) values (@ID ,@Uname ,@email ,@password ,@psuid ,@psupw ,@vldUser)";
             SqlCommand com = new SqlCommand(insertQuery, conn);
             com.Parameters.AddWithValue("@ID", newGUID.ToString());
             com.Parameters.AddWithValue("@Uname", TextBoxUserName.Text);
@@ -65,6 +65,7 @@ public partial class Account_register : System.Web.UI.Page
             com.Parameters.AddWithValue("@password", TextBoxPW.Text);
             com.Parameters.AddWithValue("@psuid", TextBoxPSUID.Text);
             com.Parameters.AddWithValue("@psupw", TextBoxPSUPW.Text);
+            com.Parameters.AddWithValue("@vldUser", 0);
 
             com.ExecuteNonQuery();
             
