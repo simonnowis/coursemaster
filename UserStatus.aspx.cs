@@ -13,7 +13,23 @@ public partial class UserStatus : System.Web.UI.Page
     {
         if (Session["New"] == null)
             Response.Redirect("/Account/login.aspx");
-       
+
+        SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["CourseMasterDBConnectionString"].ConnectionString);
+        conn.Open();
+        string checkIsValidUserQuery = "select IsValidUser from UserData where UserName='" + Session["New"] + "'";
+        SqlCommand checkIsValidComm = new SqlCommand(checkIsValidUserQuery, conn);
+
+        int temp = Convert.ToInt32(checkIsValidComm.ExecuteScalar().ToString());
+        conn.Close();
+        if (temp != 1)
+        {
+            Notice.Text = "未获得使用权限";
+        }
+        else
+        {
+            Notice.Text = "已获得使用权限";
+        }
+
     }
     protected void Button1_Click(object sender, EventArgs e)
     {

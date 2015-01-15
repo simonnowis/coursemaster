@@ -39,10 +39,9 @@
         </asp:SqlDataSource>
         <div>
 
-        <asp:GridView ID="GridView" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="LightGoldenrodYellow" BorderColor="Tan" BorderWidth="1px" CellPadding="2" DataSourceID="SqlDataSource1" 
-            BorderStyle="None"   PageSize="4" align="center"
-            ForeColor="Black" GridLines="None" Height="156px" Width="95%" DataKeyNames="ID" 
-            style="width:100%"
+        <asp:GridView ID="GridView" runat="server" AutoGenerateColumns="False" BackColor="LightGoldenrodYellow" BorderColor="Tan" BorderWidth="1px" CellPadding="2" DataSourceID="SqlDataSource1" 
+            BorderStyle="None"    align="center"
+            ForeColor="Black" GridLines="None" Height="248px" Width="95%" DataKeyNames="ID"
             >
             <AlternatingRowStyle BackColor="PaleGoldenrod" />
             <Columns>
@@ -76,7 +75,9 @@
     <div class="slider_container">
     <table class="videocontainer">
         <tr>
-            <td style="text-align: center; height: 12px; width: 150px"></td>
+            <td style="text-align: center; height: 12px; width: 150px">
+                <asp:HyperLink ID="Notice" runat="server" NavigateUrl="/buy.aspx"></asp:HyperLink>
+            </td>
             <td style="text-align: right; height: 12px">Course Name:</td>
             <td style="text-align: left; height: 12px">
                 <asp:TextBox ID="TextBoxCourseName" runat="server"></asp:TextBox>

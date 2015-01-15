@@ -71,7 +71,7 @@ public partial class Account_register : System.Web.UI.Page
             
             Response.Write("Registration is successful");
             Session["New"] = TextBoxUserName.Text;
-            Response.Redirect("~/Manage.aspx");
+            Response.Redirect("~/UserStatus.aspx");
             conn.Close();
         }
         catch(Exception ex)

@@ -10,85 +10,22 @@
    <div class="content">
    
          <div class="left_full">
-        <h1>建设中……（请无视占空内容……）</h1>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dol ore magna aliqua.Sed do eiusmod <strong>tempor incididunt</strong> ut labore et do lore magna aliqua. Ut enim ad minim veniam, <strong>quis</strong> nostrud exercitation ullamco laboris <a href="#">nisi ut</a> aliquip ex ea commodo consequat. 
-        </p>
+        <h1>关注选课神器官方公众号并转发其最新的广告，截图告诉官方公众号，你就能免费试用了！第一步当然是转发，截图啦</h1>
+             <img src="/images/Promotion/1.png" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>来到你的Subscription Accounts,这个可以在联系人里找到，或者叫做Official Accounts,找到CourseMaster</h1>
+             <img src="/images/Promotion/2.png" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>用正常的对话方式就可以交流了，当然也可以发图片，发截图</h1>
+             <img src="images/Promotion/3.png" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>发送之后记得附加上在官网上注册的用户名，工作人员收到后就会在第一时间给你添加使用权限</h1>
+             <img src="images/Promotion/4.png" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>神马？你还没有关注CourseMaster？来添加联系人这里</h1>
+             <img src="images/Promotion/5.png" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>点Official Accounts,搜CourseMaster就可以搜到了</h1>
+             <img src="images/Promotion/6.png" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>当然还可以使用扫描二维码的方式来找到CourseMaster微信公众号</h1>
+             <img src="images/Promotion/7.jpg" style="width: 30%; height: 30%; margin-left:auto; margin-right:auto"/>
+        <h1>如果长时间都没有获得使用权请跟我们联系！</h1>
         </div>
-                
-        <div class="left12">
-        <h2>Heading two - Half Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left12">
-        <h2>Heading two - Half Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        <div class="left23">
-        <h2>Heading three - 2 Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left13">
-        <h2>Heading three - Third Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="left14">
-        <h2>Heading four - Fourth Width Content</h2>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur <strong>adipisicin</strong>g elit, sed do eiusmod tempor incididunt <a href="#">consectetur</a> adipisicing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        
-        <div class="divider"></div>
-            
    </div>
    
    <div class="clear"></div> 

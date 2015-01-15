@@ -11,4 +11,8 @@ public partial class howtouse : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BBY6SSR8P8UCQ");
+    }
 }
